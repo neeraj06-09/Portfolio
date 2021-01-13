@@ -3,10 +3,13 @@
 <head>
   <title>Neeraj Pandey | Web Developer</title>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:100,400' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -20,16 +23,19 @@
               <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mx-auto" style="color: white;">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Skills</a>
+                    <a class="nav-link active" aria-current="page" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Certifications</a>
+                    <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    <a class="nav-link active" aria-current="page" href="#certifications">Certifications</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
                   </li>
                   
                   
@@ -44,19 +50,19 @@
     </div>
 
     <div class="background">
-        <img src="bkg.jpg" class="img-fluid">
+        <img src="bkg.jpg" class="img-fluid" style="opacity: 90%;">
     </div>
 
-    <div class="heading-content text-center">
-        <h5>Welcome, I am</h5>
+    <div class=" heading-content text-center">
+        <h5>Welcome, I'm</h5>
         <h1>Neeraj Pandey</h1>
-        <p>Tech Enthusiast | Web Developer</p>
+        <p><span id="spin"></span></p>
     </div>
 
-    <div id="about" class="container mt-3 pb-5">
+    <div id="about" class="offset container mt-3 pb-5">
         <div class="post-heading text-center">
-            <h3 class="display-4 font-weight-bold">About Me</h3>
-            <hr>
+            <h3 class="display-4 font-weight-bold" style="font-weight: 700;">About Me</h3>
+            <hr class="w-50 mx-auto">
         </div>
         <div class="row">
             <div class="col-lg-6 col-md-6 col-12" style="padding-left: 15rem;padding-top: 2rem;">
@@ -65,7 +71,7 @@
 
             <div class="col-lg-6 col-md-6 col-12" style="padding-right: 5rem; padding-top: 5rem;">
                 <h2 style="font-weight: 700;"> Introduction</h2><br>
-            <h3>I am Neeraj Pandey, a Computer Science and Engineer undergrad from National Institute of Technology Raipur. I am a member of clubs like NSS and also sponsoship executive in E-cell NIT Raipur. I am campus ambassador at Coding Club India and have participated in many open source hackathons. I enjoy learning new concepts in tech field. </h3>
+            <h3 style="margin-right: 8rem;">I am Neeraj Pandey, a Computer Science and Engineer undergrad from National Institute of Technology Raipur. I am a member of clubs like NSS and also sponsoship executive in E-cell NIT Raipur. I am campus ambassador at Coding Club India and have participated in many open source hackathons. I enjoy learning new concepts in tech field. </h3>
 
                 
             </div>
@@ -73,23 +79,151 @@
 
     </div>
 
+    <div id="skills" class="offset container mt-3 pb-5">
+      <div class="post-heading text-center">
+        <h3 class="display-3 font-weight-bold" style="font-weight: 700;">Skills</h3>
+        <hr class="w-50 mx-auto">
+        
 
-    <div id="skills" class="">
+    <div class="container" style="background-image: url();">
+      <div class="row" >
+          <div class="container mt-3 pb-5 col-md-6" style="text-align: center;">
+              <div class="progress pink">
+                  <h3 class="progress-title ">HTML5 : </h3>
+                  <div class="progress-value">90%</div>
+                  <div class="progress-bar" style="width:90%; background:linear-gradient(to right,#62c4dd,#1310c0);"></div>
+              </div>
+              <div class="progress green">
+                  <h3 class="progress-title">CSS3 : </h3>
+                  <div class="progress-value">70%</div>
+                  <div class="progress-bar" style="width: 70%;  background:linear-gradient(to right,#62c4dd,#1310c0);"></div>
+              </div>
+              <div class="progress green">
+                <h3 class="progress-title">JS : </h3>
+                <div class="progress-value">50%</div>
+                <div class="progress-bar" style="width: 50%;  background:linear-gradient(to right,#62c4dd,#1310c0);"></div>
+            </div>
+            <div class="progress green">
+              <h3 class="progress-title">Java : </h3>
+              <div class="progress-value">50%</div>
+              <div class="progress-bar" style="width: 50%;  background:linear-gradient(to right,#62c4dd,#1310c0);"></div>
+          </div>
+          </div>
+      </div>
+  </div>
 
-    </div>
-
-    <div id="certifications" class="">
-
-    </div>
-
-    <div id="contact" class="">
-
-    </div>
     
+
+
+    <div id="certifications" class="offset container mt-3 pb-5">
+        <div class="post-heading text-center">
+            <h3 class="display-4 font-weight-bold" style="font-weight: 700;">Certifications</h3>
+            <hr class="w-50 mx-auto">
+        </div>
+        
+    </div>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="microsoft-final.jpg" alt="Microsoft Certificate" style="margin-left: 27rem;">
+          <div class="carousel-caption">
+
+          </div>
+        </div>
+    
+        <div class="item">
+          <img src="Hakincodes-final.jpg" alt="Hakincodes Certificate" style="margin-left: 27rem;">
+          <div class="carousel-caption">
+    
+          </div>
+        </div>
+    
+        <div class="item">
+          <img src="JPMorgan-final.jpg" alt="JPMorgan certificate" style="margin-left: 27rem;">
+          <div class="carousel-caption">
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="tcs-final.jpg" alt="JPMorgan certificate" style="margin-left: 27rem;">
+          <div class="carousel-caption">
+          </div>
+        </div>
+      </div>
+    
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    
+
+    
+    
+    <div id="contact" class="offset container w-50 mt-3 mx-auto pb-5">
+      <div class="post-heading text-center">
+        <h3 class="display-4 font-weight-bold" style="font-weight: 700;">Contact</h3>
+        <hr class="w-50 mx-auto">
+       </div>
+       <form action="/action_page.php">
+        <div class="form-group">
+          <label for="email" style="font-size: 1.5rem;" style="margin-top: 2rem;">Full Name:</label>
+          <input type="text" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="email" style="font-size: 1.5rem;">Email address:</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="email" style="font-size: 1.5rem;">Message :</label>
+         
+        </div>
+        <textarea class="form-control"></textarea>
+
+        
+        
+        <button type="button" onclick="return confirm('Thank you for contacting!')" class="btn btn-primary btn-lg btn btn-dark" style="margin-top: 2rem;">Submit</button>
+        <script>
+          object.addEventListener("click", myScript);
+          </script>
+      </form>
+      
+
+    </div>
+    <div >
+    <h1>Follow me on</h1>
+    <br>
+    <hr class="w-50 mx-auto"> 
+    <div class="social-btn" style="background: gray;">
+        <a href="https://facebook.com" target="_blank"><div class="social face"><i class="fa fa-facebook fa-2x"></i><span>Facebook</span></div></a>
+        <a href="https://twitter.com/neerajp296" target="_blank"><div class="social twi"><i class="fa fa-twitter fa-2x"></i><span>Twitter</span></div></a>
+        <a href="https://www.linkedin.com/in/neeraj-pandey-ba72381a9" target="_blank"><div class="social in"><i class="fa fa-linkedin  fa-2x"></i><span>Linked In</span></div></a>
+        <a href="https://in.pinterest.com/" target="_blank"><div class="social pin"><i class="fa fa-pinterest-p fa-2x"></i><span>Pinterest</span></div></a>
+        <a href="https://github.com/neeraj06-09" target="_blank"><div class="social git"><i class="fa fa-github fa-2x"></i><span>Github</span></div></a>
+    </div>
+    </div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+
 
 
 </body>
